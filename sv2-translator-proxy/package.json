@@ -1,0 +1,17 @@
+{
+  "name": "sv2-translator-proxy",
+  "version": "0.1.0",
+  "description": "Standalone API for deploying the SRI Translator Proxy (translator_sv2) via Docker",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=18.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "dockerode": "^4.0.7",
+    "fastify": "^5.3.3"
+  }
+}
